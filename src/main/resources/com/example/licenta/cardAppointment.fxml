@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" prefHeight="242.0" prefWidth="197.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.cardAppointmentController">
+   <children>
+      <Label fx:id="nameUser" alignment="CENTER" layoutX="1.0" layoutY="14.0" prefHeight="20.0" prefWidth="197.0" text="nameUser">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="ServiceDuration" alignment="CENTER" layoutX="1.0" layoutY="63.0" prefHeight="20.0" prefWidth="197.0" text="ServiceDuration">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateService" alignment="TOP_RIGHT" layoutX="1.0" layoutY="83.0" prefHeight="20.0" prefWidth="191.0" text="dateService">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameStatus" alignment="CENTER" layoutX="5.0" layoutY="121.0" prefHeight="20.0" prefWidth="197.0" text="nameStatus">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateStatus" alignment="TOP_RIGHT" layoutX="4.0" layoutY="141.0" prefHeight="20.0" prefWidth="191.0" text="dateStatus">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameResource" alignment="CENTER" layoutX="2.0" layoutY="43.0" prefHeight="20.0" prefWidth="197.0" text="nameResource">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

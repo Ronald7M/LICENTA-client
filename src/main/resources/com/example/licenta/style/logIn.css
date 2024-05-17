@@ -1,0 +1,28 @@
+.closeBut{
+    -fx-background-color:#fff;
+}
+.closeBut:hover{
+   -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+   -fx-text-fill: fff;
+    -fx-background-radius: 30;
+}
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+}
+
+.gradient-text {
+   -fx-text-fill: linear-gradient(to bottom right, fff, #454543);
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.loginBut{
+     -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+}
+
+.loginBut:hover{
+    -fx-opacity: 0.8;
+}
+
+.shadow{
+
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}

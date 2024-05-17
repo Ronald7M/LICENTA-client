@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseClicked="#onClick" pickOnBounds="false" prefHeight="88.0" prefWidth="188.0" styleClass="cardResource" stylesheets="@style/CSS.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.cardResourceController">
+   <children>
+      <VBox layoutX="-2.0" layoutY="-2.0" prefHeight="76.0" prefWidth="183.0">
+         <children>
+            <Label fx:id="name" alignment="CENTER" prefHeight="38.0" prefWidth="183.0" text="nume">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="category" alignment="CENTER" prefHeight="38.0" prefWidth="183.0" text="category" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+.backgroundGray{
+    -fx-background-color: linear-gradient(to bottom right, #4d4d4d, #949292);
+
+}
+
+.background{
+    -fx-background-color: linear-gradient(to bottom right, #1c4a39, #256b51);
+
+}
+.button{
+    -fx-background-color: linear-gradient(to bottom right, #256b51,#3f4561 );
+    -fx-text-fill: linear-gradient(to bottom right, #6e6e69, fff);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10,0, 0, 0);
+}
+
+.but:focus{
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 10,0, 0, 0);
+}
+.button:hover{
+ -fx-background-color: linear-gradient(to bottom right, #479679,#626885 );
+ -fx-text-fill: linear-gradient(to bottom right, fff, #6e6e69);
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="nodeMain" prefHeight="125.0" prefWidth="400.0" style="-fx-background-color: #B5B5B5; -fx-background-radius: 3px; -fx-border-color: #167331; -fx-border-width: 3px; -fx-border-radius: 3px;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.frameNewAppointmentController">
+   <children>
+      <Button fx:id="butExit" layoutX="358.0" layoutY="8.0" mnemonicParsing="false" onAction="#closeModal" prefHeight="10.0" prefWidth="28.0" text="x" />
+      <Label layoutX="123.0" layoutY="7.0" prefHeight="26.0" prefWidth="154.0" text=" Chose the interval you want" />
+      <TextField fx:id="tfTime" alignment="CENTER" layoutX="165.0" layoutY="34.0" prefHeight="26.0" prefWidth="70.0" text="00:00" />
+      <Label fx:id="lbInfo" alignment="CENTER" layoutX="170.0" layoutY="57.0" prefHeight="26.0" prefWidth="60.0" text="00:00-23:59" textFill="#6e5c5c">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="butDone" layoutX="158.0" layoutY="83.0" mnemonicParsing="false" onAction="#doNewAppointment" prefHeight="26.0" prefWidth="84.0" text="Done" />
+   </children>
+</AnchorPane>

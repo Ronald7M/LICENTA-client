@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.cardServiceResourceController">
+   <children>
+      <AnchorPane fx:id="nodeId" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" pickOnBounds="false" prefHeight="65.0" prefWidth="331.0" styleClass="card" stylesheets="@style/cardService.css">
+         <children>
+            <Label fx:id="duration" alignment="CENTER" layoutX="330.0" layoutY="26.0" prefHeight="26.0" prefWidth="56.0" styleClass="card" stylesheets="@style/cardService.css" text="Duration" wrapText="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Button fx:id="butEdit" alignment="CENTER" layoutX="11.0" layoutY="8.0" mnemonicParsing="false" onAction="#openModalWithVBox" prefHeight="26.0" prefWidth="27.0" styleClass="butInfo" stylesheets="@style/cardService.css" text="i " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+               </font>
+            </Button>
+            <Label fx:id="name" alignment="CENTER" layoutX="46.0" layoutY="9.0" maxHeight="1.7976931348623157E308" prefHeight="48.0" prefWidth="283.0" text="Service Name" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="settings" layoutX="10.0" layoutY="89.0" prefHeight="123.0" prefWidth="391.0" style="-fx-background-color: #878787; -fx-background-radius: 17px;">
+         <children>
+            <Button layoutX="353.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeModal" styleClass="butInfo" stylesheets="@style/cardService.css" text="X">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Button>
+            <TextField fx:id="chName" layoutX="37.0" layoutY="14.0" />
+            <TextField fx:id="chDuration" editable="false" layoutX="37.0" layoutY="76.0" />
+            <Button layoutX="212.0" layoutY="88.0" mnemonicParsing="false" onAction="#onEdit" prefHeight="26.0" prefWidth="63.0" styleClass="butInfo" stylesheets="@style/cardService.css" text="Edit">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="301.0" layoutY="89.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="26.0" prefWidth="63.0" styleClass="butInfo" stylesheets="@style/cardService.css" text="Delete">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="nodeAdd" layoutX="14.0" layoutY="219.0" maxHeight="1.7976931348623157E308" pickOnBounds="false" prefHeight="79.0" prefWidth="391.0" stylesheets="@style/cardService.css">
+         <children>
+            <ImageView fx:id="butAdd" fitHeight="56.0" fitWidth="56.0" layoutX="168.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/addIcone.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="nodeAddFrame" layoutX="14.0" layoutY="298.0" maxHeight="1.7976931348623157E308" pickOnBounds="false" prefHeight="103.0" prefWidth="391.0" styleClass="card" stylesheets="@style/cardService.css">
+         <children>
+            <Button fx:id="butConfirmationAdd" alignment="CENTER" layoutX="265.0" layoutY="53.0" mnemonicParsing="false" onAction="#test" prefHeight="34.0" prefWidth="106.0" styleClass="butInfo" stylesheets="@style/cardService.css" text="Add Service" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="textAddName" layoutX="14.0" layoutY="12.0" prefHeight="26.0" prefWidth="169.0" promptText="Name Service" />
+            <TextField fx:id="textAddDuration" layoutX="14.0" layoutY="57.0" prefHeight="26.0" prefWidth="169.0" promptText="Duration" />
+            <Button fx:id="butConfirmationAdd1" alignment="CENTER" layoutX="357.0" layoutY="1.0" mnemonicParsing="false" onAction="#hideFrameAddService" prefHeight="26.0" prefWidth="23.0" styleClass="butInfo" stylesheets="@style/cardService.css" text="X" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

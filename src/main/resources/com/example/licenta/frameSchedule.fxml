@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainNode" prefHeight="284.0" prefWidth="258.0" stylesheets="@style/cardService.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.frameScheduleController">
+   <children>
+      <Label layoutX="22.0" layoutY="26.0" prefHeight="17.0" prefWidth="42.0" text="MON" />
+      <TextField fx:id="monF" layoutX="89.0" layoutY="22.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="monT" layoutX="168.0" layoutY="22.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="26.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="64.0" prefHeight="17.0" prefWidth="42.0" text="TUE" />
+      <TextField fx:id="tueF" layoutX="89.0" layoutY="60.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="tueT" layoutX="168.0" layoutY="60.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="64.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="98.0" prefHeight="17.0" prefWidth="42.0" text="WED" />
+      <TextField fx:id="wedF" layoutX="89.0" layoutY="94.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="wedT" layoutX="168.0" layoutY="94.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="98.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="135.0" prefHeight="17.0" prefWidth="42.0" text="THU" />
+      <TextField fx:id="thuF" layoutX="89.0" layoutY="131.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="thuT" layoutX="168.0" layoutY="131.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="135.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="173.0" prefHeight="17.0" prefWidth="42.0" text="FRI" />
+      <TextField fx:id="friF" layoutX="89.0" layoutY="169.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="friT" layoutX="168.0" layoutY="169.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="173.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="207.0" prefHeight="17.0" prefWidth="42.0" text="SAT" />
+      <TextField fx:id="satF" layoutX="89.0" layoutY="203.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="satT" layoutX="168.0" layoutY="203.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="207.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+      <Label layoutX="22.0" layoutY="244.0" prefHeight="17.0" prefWidth="42.0" text="SUN" />
+      <TextField fx:id="sunF" layoutX="89.0" layoutY="240.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="sunT" layoutX="168.0" layoutY="240.0" prefHeight="25.0" prefWidth="63.0" />
+      <Label layoutX="159.0" layoutY="244.0" prefHeight="17.0" prefWidth="17.0" text=":" />
+   </children>
+</AnchorPane>

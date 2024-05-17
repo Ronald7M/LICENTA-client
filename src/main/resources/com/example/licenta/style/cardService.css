@@ -1,0 +1,42 @@
+/* Stil pentru ScrollPane */
+.scroll-pane {
+    -fx-background-color: #cccccc; /* Culoarea de fundal */
+    -fx-background-radius: 10; /* Raza colțurilor */
+     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 5, 5); /* Umbra */
+}
+
+/* Stil pentru bara de derulare verticală */
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: #cccccc; /* Culoarea fundalului barei de derulare */
+    -fx-background-radius: 5; /* Raza colțurilor barei de derulare */
+}
+
+/* Stil pentru bara de derulare orizontală */
+.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #cccccc; /* Culoarea fundalului barei de derulare */
+    -fx-background-radius: 5; /* Raza colțurilor barei de derulare */
+}
+
+.card{
+    -fx-background-color: #fff; /* Culoarea de fundal */
+    -fx-background-radius: 15; /* Raza colțurilor */
+        -fx-border-color: #0D7D0F; /* Culoarea bordurii */
+        -fx-border-width: 2px; /* Lățimea bordurii */
+        -fx-border-radius: 15; /* Raza colțurilor pentru bordură */
+    -fx-effect: dropshadow(gaussian, rgba(37,107,81,0.2), 10, 0, 5, 5); /* Umbra */
+
+}
+
+.butInfo{
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-color: #DBDBDB;
+    -fx-border-color: #7D7D7D;
+}
+.butInfo:hover{
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-color: #B03D77;
+    -fx-border-color: #5E2140;
+
+}

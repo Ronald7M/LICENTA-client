@@ -1,0 +1,32 @@
+.top-form{
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+}
+.button-top{
+    -fx-background-color: linear-gradient(to bottom right, #256b51,#3f4561 );
+    -fx-text-fill: linear-gradient(to bottom right, #6e6e69, fff);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10,0, 0, 0);
+}
+.but-top:focus{
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.8), 10,0, 0, 0);
+}
+.button-top:hover{
+ -fx-background-color: linear-gradient(to bottom right, #479679,#626885 );
+ -fx-text-fill: linear-gradient(to bottom right, fff, #6e6e69);
+}
+.top-label {
+   -fx-text-fill: linear-gradient(to bottom right, fff, #454543);
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10,0, 0, 0);
+}
+.minimize-exit-buttons{
+    -fx-background-radius: 30;
+}
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
+}
+.top-label-name{
+   -fx-text-fill: linear-gradient(to bottom right, #15abed, #1424cc);
+   -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10,0, 0, 0);
+}
+.time-date{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 10,0, 0, 0);
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPanel" prefHeight="510.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.licenta.confirmAndViewAppointmentController">
+   <children>
+      <VBox layoutX="52.0" layoutY="37.0" prefHeight="458.0" prefWidth="646.0">
+         <children>
+            <VBox prefHeight="267.0" prefWidth="646.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="579.0" text="Appointments for Today" />
+                  <ScrollPane prefHeight="210.0" prefWidth="618.0" style="-fx-background-color: transparent;">
+                     <content>
+                        <HBox fx:id="vbToday" maxHeight="193.0" maxWidth="646.0" prefHeight="132.0" prefWidth="646.0" spacing="20.0">
+                           <children>
+                              <Label fx:id="lbToday" alignment="CENTER" prefHeight="250.0" prefWidth="626.0" text="You don't have an appointment for today">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin></Label>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" right="20.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+            <Label prefHeight="18.0" prefWidth="638.0" text="Future Appointments" />
+            <ScrollPane prefHeight="235.0" prefWidth="627.0" style="-fx-background-color: transparent;">
+               <content>
+                  <HBox fx:id="vbFuture" maxHeight="182.0" maxWidth="667.0" prefHeight="142.0" prefWidth="667.0" spacing="20.0">
+                     <children>
+                        <Label fx:id="lbFuture" alignment="CENTER" prefHeight="200.0" prefWidth="634.0" text="There is no appointment " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                  </HBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <Label fx:id="Title" layoutX="543.0" layoutY="17.0" text="View Appointments">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
