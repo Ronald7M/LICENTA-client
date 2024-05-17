@@ -20,9 +20,9 @@ public class dataBase {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
 
-            String url = "jdbc:mysql://uksuiylf7hs4w279:MPm8gmzV1xOofjx1n6vu@bqhwl80c1domfwkjfhyp-mysql.services.clever-cloud.com:3306/bqhwl80c1domfwkjfhyp?autoReconnect=true";
-            String utilizator = "uksuiylf7hs4w279";
-            String parola = "MPm8gmzV1xOofjx1n6vu";
+            String url ;
+            String utilizator ;
+            String parola;
             conexiune = DriverManager.getConnection(url, utilizator, parola);
 
 
